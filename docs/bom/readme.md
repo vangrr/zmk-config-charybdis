@@ -12,7 +12,7 @@
 | PMW3610 Module                  | 1       |
 | Power Switch TS-6               | 2       |
 | Veichu VCN310 7.5mm             | 3       |
-| 26 AWG Cable                    | 5 Meter |
+| 26 AWG Cable Single Core        | 5 Meter |
 | Key Switches (Gateron Oil King) | 56      |
 | JST PH 2.0 Cable And Jack       | 2 Pairs |
 | Heated Screw Insert, M3xD5x5    | 5       |
