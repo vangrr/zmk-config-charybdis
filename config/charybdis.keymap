@@ -30,7 +30,7 @@
         bindings = <&ib_toggle_layer MSK>;
     };
 
-    trackball_listener {
+    trackball_snip_listener {
         compatible = "zmk,input-behavior-listener";
         device = <&vtrackball>;
         layers = <4>;
