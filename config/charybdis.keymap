@@ -27,7 +27,6 @@
         y-input-code = <INPUT_REL_Y>;
         scale-multiplier = <1>;
         scale-divisor = <4>;
-        bindings = <&ib_toggle_layer 3>;
     };
 
     trackball_snip_listener {
@@ -39,7 +38,6 @@
         y-input-code = <INPUT_REL_Y>;
         scale-multiplier = <1>;
         scale-divisor = <8>;
-        bindings = <&ib_toggle_layer 4>;
     };
 
     trackball_scroll_listener {
@@ -50,7 +48,6 @@
         x-input-code = <INPUT_REL_MISC>;
         y-input-code = <INPUT_REL_WHEEL>;
         y-invert;
-        bindings = <&ib_wheel_scaler 1 28>;
     };
 
     ib_wheel_scaler: ib_wheel_scaler {
