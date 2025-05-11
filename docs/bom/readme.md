@@ -11,7 +11,7 @@
 | Reset Button 4x4x1.5            | 2       |
 | PMW3610 Module                  | 1       |
 | Power Switch TS-6               | 2       |
-| Veichu VCN310 7.5mm             | 3       |
+| 3.175mm Ceramic Bearing Balls   | 3       |
 | 26 AWG Cable Single Core        | 5 Meter |
 | Key Switches (Gateron Oil King) | 56      |
 | JST PH 2.0 Cable And Jack       | 2 Pairs |
@@ -33,11 +33,12 @@
 
 ## 3D Prints
 
-| Part name        | Amount | Link                                                                                        |
-| ---------------- | ------ | ------------------------------------------------------------------------------------------- |
-| Right case       | 1      | https://github.com/Bastardkb/Charybdis/blob/main/files/4x6/MK2/charybdis_v4_247_right.stl   |
-| Left case        | 1      | https://github.com/Bastardkb/Scylla/blob/main/files/MK2/scylla_v3_36.stl                    |
-| Right plate      | 1      | https://github.com/Bastardkb/Charybdis/blob/main/files/4x6/MK2/charybdis_v4_247_plate_R.stl |
-| Left plate       | 1      | https://github.com/Bastardkb/Scylla/blob/main/files/MK2/scylla_v3_36_plate_left.stl         |
-| Adapter - top    | 1      | https://github.com/Bastardkb/Charybdis/blob/main/files/4x6/adapter_v4_v4_top.stl            |
-| Adapter - bottom | 1      | https://github.com/Bastardkb/Charybdis/blob/main/files/mods/veichu/veichu.stl               |
+| Part name        | Amount | Link                                                                                                      |
+| ---------------- | ------ | --------------------------------------------------------------------------------------------------------- |
+| Right case       | 1      | https://github.com/Bastardkb/Charybdis/blob/main/files/4x6/MK2/charybdis_v4_247_right.stl                 |
+| Left case        | 1      | https://github.com/Bastardkb/Scylla/blob/main/files/MK2/scylla_v3_36.stl                                  |
+| Right plate      | 1      | https://github.com/Bastardkb/Charybdis/blob/main/files/4x6/MK2/charybdis_v4_247_plate_R.stl               |
+| Left plate       | 1      | https://github.com/Bastardkb/Scylla/blob/main/files/MK2/scylla_v3_36_plate_left.stl                       |
+| Adapter - top    | 1      | https://github.com/Bastardkb/Charybdis/blob/main/files/4x6/adapter_v4_v4_top.stl                          |
+| Adapter - bottom | 1      | https://github.com/Bastardkb/Charybdis/blob/main/files/mods/btu/adapter_btu_bottom_v32.stl                |
+| Adapter - ball   | 1      | https://github.com/Bastardkb/Charybdis/blob/main/files/mods/static-bearing/printable_btu_3.175mm_ball.stl |
