@@ -11,13 +11,15 @@
 };
 
 &mt {
-    quick-tap-ms = <125>;
+    quick-tap-ms = <200>;
     flavor = "tap-preferred";
+    tapping-term-ms = <170>;
 };
 
 &lt {
-    quick-tap-ms = <125>;
+    quick-tap-ms = <200>;
     flavor = "tap-preferred";
+    tapping-term-ms = <170>;
 };
 
 / {
