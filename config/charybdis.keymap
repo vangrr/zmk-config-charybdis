@@ -38,17 +38,17 @@
 
         BASE {
             bindings = <
-&kp ESC     &kp N1       &kp N2         &kp N3      &kp N4        &kp N5              &kp N6     &kp N7        &kp N8      &kp N9           &kp N0          &kp MINUS
-&kp TAB     &kp Q        &kp W          &kp E       &kp R         &kp T               &kp Y      &kp U         &kp I       &kp O            &kp P           &kp EQUAL
-&kp LSHIFT  &kp A        &kp S          &kp D       &kp F         &kp G               &kp H      &kp J         &kp K       &kp L            &kp SEMI        &kp APOS
-&kp LCTRL   &kp Z        &kp X          &kp C       &kp V         &kp B               &kp N      &kp M         &kp COMMA   &kp DOT          &kp SLASH       &kp RCTRL
-            &mo 1       &kp LGUI  &kp LSHIFT  &kp SPACE     &kp DEL           &kp ENTER              &kp SPACE                 &mo 2
+&kp ESC     &kp N1  &kp N2     &kp N3  &kp N4    &kp N5     &kp N6            &kp N7         &kp N8     &kp N9     &kp N0     &kp MINUS
+&kp TAB     &kp Q   &kp W      &kp E   &kp R     &kp T                 &kp Y  &kp U          &kp I      &kp O      &kp P      &kp EQUAL
+&kp LSHIFT  &kp A   &kp S      &kp D   &kp F     &kp G                 &kp H  &kp J          &kp K      &kp L      &kp SEMI   &kp APOS
+&kp LCTRL   &kp Z   &kp X      &kp C   &kp V     &kp B                 &kp N  &kp M          &kp COMMA  &kp DOT    &kp SLASH  &kp LEFT_ALT
+            &mo 2   &mkp RCLK  &mo 1   &kp LGUI  &mkp LCLK  &kp SPACE         &kp BACKSPACE             &kp ENTER
             >;
         };
 
         NAV {
             bindings = <
-&kp `          &kp F1          &kp F2           &kp F3             &kp F4           &kp F5    &kp F6                &kp F7  &kp F8  &kp F9  &kp F10          &kp F11
+&kp TILDE        &kp F1          &kp F2           &kp F3             &kp F4           &kp F5    &kp F6                &kp F7  &kp F8  &kp F9  &kp F10          &kp F11
 &trans           &kp SCROLLLOCK  &kp PAUSE_BREAK  &kp UP             &kp EQUAL        &kp LBRC              &kp RBRC  &kp N7  &kp N8  &kp N9  &kp KP_PLUS      &trans
 &kp PRINTSCREEN  &kp INSERT      &kp LEFT         &kp DOWN           &kp RIGHT        &kp LBKT              &kp RBKT  &kp N4  &kp N5  &kp N6  &kp KP_MINUS     &kp KP_DIVIDE
 &trans           &kp DEL         &kp PG_UP        &kp CAPS           &kp PG_DN        &kp LPAR              &kp RPAR  &kp N1  &kp N2  &kp N3  &kp KP_MULTIPLY  &trans
@@ -58,11 +58,11 @@
 
         SYM {
             bindings = <
-&kp F12  &kp F1         &kp F2     &kp F3             &kp F4            &kp F5         &kp F6                         &kp F7            &kp F8     &kp F9        &kp F10        &kp F11
-&trans   &kp EXCL       &kp AT     &kp HASH           &kp DLLR          &kp PRCNT                          &kp CARET  &kp AMPS          &kp STAR   &kp QUESTION  &kp SQT        &trans
-&trans   &kp PLUS       &kp EQUAL  &kp LPAR           &kp RPAR          &kp DQT                            &kp COLON  &kp LBKT          &kp RBKT   &kp LBRC      &kp RBRC       &trans
-&trans   &kp LESS_THAN  &kp PIPE   &kp MINUS          &kp GREATER_THAN  &kp BACKSLASH                      &kp GRAVE  &kp UNDERSCORE    &kp SLASH  &kp TILDE     &kp SEMICOLON  &trans
-         &mo 3          &trans     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &trans         &kt C_FAST_FORWARD             &kp C_PLAY_PAUSE             &trans
+&kp F12  &kp F1         &kp F2     &kp F3             &kp F4            &kp F5         &kp F6                         &kp F7            &kp F8        &kp F9           &kp F10     &kp F11
+&trans   &kp EXCL       &kp AT     &kp HASH           &kp DLLR          &kp PRCNT                          &kp CARET  &kp AMPS          &kp STAR      &kp QUESTION     &kp SQT     &trans
+&trans   &kp PLUS       &kp EQUAL  &kp LPAR           &kp RPAR          &kp DQT                            &kp COLON  &kp LBKT          &kp RBKT      &kp LBRC         &kp RBRC    &trans
+&trans   &kp LESS_THAN  &kp PIPE   &kp MINUS          &kp GREATER_THAN  &kp BACKSLASH                      &kp GRAVE  &kp UNDERSCORE    &kp C_VOL_DN  &kp C_VOLUME_UP  &kp K_MUTE  &trans
+         &mo 3          &trans     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &trans         &kt C_FAST_FORWARD             &kp C_PLAY_PAUSE                &trans
             >;
         };
 
