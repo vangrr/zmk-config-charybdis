@@ -1,0 +1,52 @@
+name: Build ZMK Firmware
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gcc-arm-none-eabi cmake ninja-build python3-pip
+          pip install west
+
+      - name: Init west and fetch ZMK
+        run: |
+          west init -l .
+          west update
+
+      - name: Build firmware (left side)
+        run: |
+          west build -b nice_nano_v2 -- -DSHIELD=charybdis_left
+        env:
+          SHIELD: charybdis_left
+      - name: Upload artifact (left)
+        uses: actions/upload-artifact@v3
+        with:
+          name: zmk-firmware-left
+          path: build/zephyr/zmk.uf2
+
+      - name: Build firmware (right side)
+        run: |
+          west build -b nice_nano_v2 -- -DSHIELD=charybdis_right
+        env:
+          SHIELD: charybdis_right
+      - name: Upload artifact (right)
+        uses: actions/upload-artifact@v3
+        with:
+          name: zmk-firmware-right
+          path: build/zephyr/zmk.uf2
